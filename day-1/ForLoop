@@ -1,0 +1,41 @@
+
+# #basic 
+# for i in range(3):
+#     print(i)
+
+contents = ["Video Gym", "Tips Coding", "Daily Vlog"]
+# for content in contents:
+#     print(content)
+
+# dipython lebih sederhana lagi mendapatkan indeks
+
+# for index, content in enumerate(contents):
+#     print(index +1 ,content)
+
+# while
+# mengeksekusi ketika kondisinya true
+# basic
+
+# count = 1
+# while count <= 3:
+#     print(count)
+#     count += 1
+
+# break and continue
+# break berhenti ketika memenuhi kondisi
+
+# for i in range(5):
+#     if i == 3:
+#         break
+#     print(i)
+
+# continue skip jika memenuhi kondisi
+for i in range(5):
+    if i == 2:
+        continue
+    print(i)
+
+#di python tidak bisa print string dengan varibel lain harus disamakan dulu variablenya
+
+for index, content in enumerate(contents):
+    print(str(int(index+1))+"." ,content)
