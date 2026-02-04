@@ -13,6 +13,14 @@ ipk = 3.47
 # boolean
 is_work = False
 
+# array atau list
+arrays = ["ikan","kodok","buaya"]
+tuple = ("jerapah","gajah","harimau")
+dictionary = {
+    "name" : "ival",
+    "age" : 27
+}
+
 #print
 
 # print("nama: ", name) | bisa seperti ini

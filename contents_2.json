@@ -1,0 +1,18 @@
+[
+    {
+        "title": "jawa",
+        "status": "scheduled"
+    },
+    {
+        "title": "sunda",
+        "status": "draft"
+    },
+    {
+        "title": "sg",
+        "status": "published"
+    },
+    {
+        "title": "gym",
+        "status": "published"
+    }
+]
