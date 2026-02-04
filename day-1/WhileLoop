@@ -1,0 +1,66 @@
+# i = 1
+
+# while(i <= 5):
+#     print(i)
+#     i += 1
+
+# validasi nilai | python terlihat lebih simple
+# while True:
+#     age = input("umur: ")
+#     if age.isdigit():
+#             age = int(age)
+#             break
+#     print("Input Harus Angka")
+
+# while True:
+#     print("1. Lihat data")
+#     print("2. Tambah data")
+#     print("3. Hapus data")
+#     print("4. keluar")
+
+#     choice = input("Pilih menu: ")
+#     if choice == "1":
+#          print("Lihat data")
+#     elif choice == "2":
+#          print("Tambah data")
+#     elif choice == "3":
+#          print("Hapus data")
+#     elif choice == "4":
+#          print("See youu ~")
+#          break
+#     else:
+#          print("Pilihan tidak ada")
+
+    
+# login sangat sederhana
+
+# password = "jamal123"
+
+# while True:
+#      user_input = input("Masukan Password: ")
+
+#      if user_input == password:
+#           print("Login berhasil")
+#           break
+#      else:
+#           print("salah, silahkan coba lagi")
+    
+
+sort_number = "12345678910"
+secret_number = "3"
+
+while True:
+     jawaban = input("Masukan Angka Rahasia: ")
+     if jawaban == secret_number:
+          print("Benarrr")
+          break
+     else:
+          print("Salah, Ulangi")
+
+while True:
+     answer = input("Masukan angka urut 1-10: ")
+     if answer.isdigit() and 1 <= int(answer) <= 10:
+          print("Angka valid")
+          break
+     else:
+          print("Ulangi")
